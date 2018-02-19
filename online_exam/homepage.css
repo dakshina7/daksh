@@ -1,0 +1,78 @@
+﻿body {
+}
+
+*
+{
+    padding:0px;
+          margin:0px;
+}
+#menu ul
+{
+    list-style-type:none;
+    height: 46px;
+    margin-bottom: 0px;
+    background-color: #0000FF;
+}
+#menu ul li
+{
+    
+    list-style-type:none; 
+    text-decoration:none;
+}
+#menu ul li
+{
+    background-color:Blue;
+    color:White;
+    width:149px; 
+    height:30px;
+    text-align:center;
+    line-height:35px;
+    float:right;
+    display:block;
+    position:relative;
+    top: 4px;
+    left: -1px;
+}
+
+#menu ul li a
+
+{
+    
+    color:White;
+    text-decoration:none;
+}
+a:hover
+{
+    background-color:#2ECC7A;
+    color:White;
+    display:block;
+  
+}
+#menu ul ul
+{
+     width:170px; 
+        height:60px;
+    text-decoration:none;
+    text-align:center;
+    position:absolute;
+    display:none;
+    
+   
+}
+#menu ul li>ul li
+{
+    width:170px; 
+        height:60px;
+    background-color:Blue;
+    color:white;
+
+    }
+    
+    #menu ul li:hover>ul
+    {
+        
+        display:block;
+    
+    }
+
+
